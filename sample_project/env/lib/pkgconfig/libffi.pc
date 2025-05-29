@@ -1,0 +1,11 @@
+prefix=/Users/pcnslt/Library/Mobile Documents/com~apple~CloudDocs/mac-repo/mac-repo/DataScience/complete-machine-learning-and-data-science-zero-to-mastery/sample_project/env
+exec_prefix=${prefix}
+libdir=${exec_prefix}/lib
+toolexeclibdir=${libdir}
+includedir=/Users/pcnslt/Library/Mobile Documents/com~apple~CloudDocs/mac-repo/mac-repo/DataScience/complete-machine-learning-and-data-science-zero-to-mastery/sample_project/env/include
+
+Name: libffi
+Description: Library supporting Foreign Function Interfaces
+Version: 3.4.4
+Libs: -L${toolexeclibdir} -lffi
+Cflags: -I${includedir}
